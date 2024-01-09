@@ -11,3 +11,7 @@ def merge_the_tools(string, k):
         ch = arr[i]
         for j in range(len(ch)):
             print(ch[j])
+
+if __name__ == '__main__':
+    string, k = input(), int(input())
+    merge_the_tools(string, k)
